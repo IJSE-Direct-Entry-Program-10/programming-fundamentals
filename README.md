@@ -20,11 +20,11 @@ Download the full source code here [📥](https://github.com/IJSE-Direct-Entry-P
 5. [`statements.demos.algorithms`](src/statements/demos/algorithms) - Should not be here in this module (But what to do now? 🤷)
 6. [`miscellaneous`](src/miscellaneous)
    - Comments in Java
-   - StdIn, StdOut, StdErr
-   - Usage of [Scanner](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html)
+   - Standard Streams (StdIn, StdOut, StdErr)
+   - Usage of the [Scanner](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Scanner.html)
    - Usage of Strings
    - String Constant Pool
-   - `toString()`
+   - Behavior of `toString()` and `equals()`
    - Equals vs EqualsIgnoreCase vs Equality
    - Colors in the Terminal
 
