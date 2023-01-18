@@ -28,7 +28,7 @@ public class BreakStatement2 {
                     {
                         System.out.println("C. Within the inside block");
                         {
-                            if (true) break abc;
+                            if (true) break inside;
                         }
                         System.out.println("D. Within the inside block");
                     }

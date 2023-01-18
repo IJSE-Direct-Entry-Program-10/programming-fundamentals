@@ -18,6 +18,7 @@ Download the full source code here [📥](https://github.com/IJSE-Direct-Entry-P
 3. [`statement`](src/statement)
 4. [`statement.demos`](src/statement/demos) - Statements in Action
 5. [`statement.demos.algorithms`](src/statement/demos/algorithms) - Should not be here in this module (But what to do now? 🤷)
+7. [`methods`](src/method)
 6. [`miscellaneous`](src/miscellaneous)
    - Comments in Java
    - Standard Streams (StdIn, StdOut, StdErr)
