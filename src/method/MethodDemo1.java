@@ -20,4 +20,5 @@ public class MethodDemo1 {
         System.out.println(something.toUpperCase());
         System.out.println("---------------------");
     }
+
 }
