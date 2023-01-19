@@ -1,28 +1,54 @@
 package miscellaneous;
 
+import java.util.Arrays;
+
 public class TableDemo {
 
     public static void main(String[] args) {
-        String[] columnNames = {"ID", "Name", "Contact", "Address"};
-        String[][] data =
-                {
-                        {"S001", "Kasun", "011-1234567", "Galle"},
-                        {"S00200", "Nuwan Ramindu Sampath", "078-1234567", "Panadura"},
-                        {"S003", "Ruwan Dissanayaka Hettige", "011-1234567", "Matara"},
-                        {"S004", "Supun", "055-1234567", "Colombo"},
-                        {"S005", "Nimal", "033-1234567", "Kandy"},
-                };
+        String[] columnNames = {"ID", "Name", "Age"};
+        String[][] data = {
+                {"S001", "Kasun", "25"},
+                {"S00200", "Nuwan Ramindu Sampath", "35"},
+                {"S003", "Ruwan Dissanayaka Hettige", "45"},
+                {"S004", "Supun", "40"},
+                {"S004", "Supun", "30"},
+                {"S004", "Supun", "25"},
+                {"S005", "Nimal", "15"},};
         printTable(columnNames, data);
     }
 
     public static void printTable(String[] columnNames, String[][] data) {
-        String line = "+".concat("-".repeat(5)).concat("+").concat("-".repeat(15)).concat("+");
-        System.out.println(line);
-        System.out.printf("|%-5s|%-15s| \n", "ID", "NAME");
-        System.out.println(line);
-        for (String[] row : data) {
-            System.out.printf("|%-5s|%-15s| \n", row[0], row[1]);
+        int[] columnsMaxLength = getColumnsMaxLength(columnNames.length, data);
+
+        String record = "|";
+        String border = "+";
+        for (int i = 0; i < columnNames.length; i++) {
+            border += "-".repeat(columnsMaxLength[i]).concat("+");
+            record += "%-"+ columnsMaxLength[i] +"s|";
         }
-        System.out.println(line);
+
+        System.out.println(border);
+        System.out.println(String.format(record, columnNames));
+        System.out.println(border);
+        for (String[] row : data) {
+            System.out.println(String.format(record, row));
+        }
+        System.out.println(border);
+    }
+
+    public static int[] getColumnsMaxLength(int columnsCount, String[][] data) {
+        int[] maxLengths = new int[columnsCount];
+
+        for (int col = 0; col < columnsCount; col++) {
+            int maxLength = data[0][col].length();
+            for (int row = 1; row < data.length; row++) {
+                if (maxLength < data[row][col].length()){
+                    maxLength = data[row][col].length();
+                }
+            }
+            maxLengths[col] = maxLength + 1;
+        }
+
+        return maxLengths;
     }
 }
