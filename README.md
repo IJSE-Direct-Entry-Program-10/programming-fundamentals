@@ -39,7 +39,7 @@ Practice below algorithms one after one, again and again. It will help you to bo
    3. Find the maximum number in an unsorted number sequence (via 4-loops and recursions) [Link](src/statement/demos/algorithms/MinMaxAlgo.java)
    4. Reverse an int array without creating a new array (via 4-loops and recursions) [Link](src/statement/demos/algorithms/ReverseArray.java)
    5. Reverse an ASCII char sequence in a string (via 4-loops and recursions)
-   6. Create a CLI Progress Bar
+   6. Create a CLI Progress Bar [Link](https://drive.google.com/file/d/1i6ROZPaQ_IGxayyx49XymT3j-Pn8GPGE/view?usp=sharing)
    7. Selection Sort (via 3-loops and recursions) 
       - Via finding the minimum [Link](src/statement/demos/algorithms/SelectionSort1.java)
       - Via finding the maximum [Link](src/statement/demos/algorithms/SelectionSort2.java)
