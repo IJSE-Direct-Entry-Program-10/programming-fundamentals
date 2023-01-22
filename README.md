@@ -35,8 +35,8 @@ Download the full source code here [📥](https://github.com/IJSE-Direct-Entry-P
 ### Algorithm List to Practice
 Practice below algorithms one after one, again and again. It will help you to boost your programming fundamentals. **Remember, <span style="color: blue;">practice makes you perfect**</span> 
    1. Find a specific number in a number sequence via Linear Search (via 4-loops and recursions)
-   2. Find the minimum number in a unsorted number sequence (via 4-loops and recursions) [Link](src/statement/demos/algorithms/MinMaxAlgo.java)
-   3. Find the maximum number in a unsorted number sequence (via 4-loops and recursions) [Link](src/statement/demos/algorithms/MinMaxAlgo.java)
+   2. Find the minimum number in an unsorted number sequence (via 4-loops and recursions) [Link](src/statement/demos/algorithms/MinMaxAlgo.java)
+   3. Find the maximum number in an unsorted number sequence (via 4-loops and recursions) [Link](src/statement/demos/algorithms/MinMaxAlgo.java)
    4. Reverse an int array without creating a new array (via 4-loops and recursions) [Link](src/statement/demos/algorithms/ReverseArray.java)
    5. Reverse an ASCII char sequence in a string (via 4-loops and recursions)
    6. Create a CLI Progress Bar
