@@ -21,6 +21,7 @@ Download the full source code here [📥](https://github.com/IJSE-Direct-Entry-P
 7. [`methods`](src/method)
    - Recursions
    - Variable number of arguments
+   - Method Overloading
 7. [`algorithms`](src/algorithms)
 8. [`miscellaneous`](src/miscellaneous)
    - Comments in Java
